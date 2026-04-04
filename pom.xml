@@ -27,6 +27,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>3.4.2</version>
+            </dependency>
             <!-- общие модули -->
             <dependency>
                 <groupId>com.misis</groupId>
