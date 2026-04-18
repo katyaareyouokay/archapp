@@ -18,9 +18,9 @@ public class UserEventPublisher {
 
     public void publishUserEvent(UserCreatedEvent event) {
         rabbitTemplate.convertAndSend(
-                RabbitConfiguration.USER_EXCHANGE,
-                "user.created",
-                event
+            RabbitConfiguration.USER_EXCHANGE,
+            "user.created",
+            event
         );
     }
 

@@ -13,7 +13,7 @@ public class EventConsumerListener {
 
     @Autowired
     public EventConsumerListener(
-            NotificationService notificationService
+        NotificationService notificationService
     ) {
         this.notificationService = notificationService;
     }
